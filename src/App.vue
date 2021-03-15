@@ -1,7 +1,7 @@
 <!--{}-->
 <template>
   <div>
-    <h1 id="header">HARI's Kitchen</h1>
+    <h1 id="header">HARI'S Kitchen</h1>
     <router-view></router-view>
     <!--<Content></Content>-->
   </div>
