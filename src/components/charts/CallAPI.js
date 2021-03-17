@@ -65,7 +65,7 @@ export default {
                 this.datacollection.labels.push(data.timestamp)
                 for (let i=0; i < data.readings.psi_twenty_four_hourly.length; i++) {
                   let region = this.datacollection.datasets[i].label
-                  this.datacollection.datasets[i].data.push(data.readings.psi_twenty_four_hourly.region)
+                  this.datacollection.datasets[i].data.push(data.readings.psi_twenty_four_hourly[region])
                 }
             })
             
